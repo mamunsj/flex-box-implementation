@@ -54,7 +54,7 @@ nav {
 
 li {
   padding: 10px;
-  transition: all 0.3s ease;
+  transition: all 0.3s linear;
 }
 
 li:hover {
@@ -90,7 +90,6 @@ li:hover {
 }
 
 .flex-container *:hover {
-  box-shadow: inset 23px 40px 48px rgb(227, 227, 227);
   box-shadow: 3px 4px 18px rgb(10, 1, 1);
 }
 
